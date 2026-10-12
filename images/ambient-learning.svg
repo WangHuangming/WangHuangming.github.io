@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" fill="none">
+  <!-- Schematic only, not measured project results: training loss decreases while validation loss reaches a minimum. -->
+  <g stroke="#879477" stroke-width="1.5" opacity=".4">
+    <path d="M340 240H884M340 360H884M340 480H884M340 600H884M340 720H884" stroke-dasharray="4 11"/>
+    <path d="M448 176V790M556 176V790M664 176V790M772 176V790M880 176V790" stroke-dasharray="4 11"/>
+  </g>
+  <g stroke="#264f3b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".76">
+    <path d="M340 160V790H900M333 171L340 160 347 171M889 783L900 790 889 797"/>
+    <path d="M333 240H347M333 360H347M333 480H347M333 600H347M333 720H347M448 783V797M556 783V797M664 783V797M772 783V797M880 783V797"/>
+  </g>
+  <path d="M358 290C390 338 412 376 448 410S516 482 556 510 618 555 664 550 735 544 772 534 840 520 880 500L880 530C840 550 810 555 772 564S708 580 664 580 588 560 556 540 483 473 448 442 389 374 358 326Z" fill="#879477" opacity=".4"/>
+  <path d="M358 202C383 307 413 388 448 451S520 551 556 599 624 660 664 682 737 709 772 718 844 734 880 740" stroke="#264f3b" stroke-width="2.8" stroke-linecap="round" opacity=".85"/>
+  <path d="M358 308C390 356 412 392 448 426S516 497 556 525 618 571 664 565 735 559 772 549 840 535 880 515" stroke="#879477" stroke-width="2.8" stroke-linecap="round" stroke-dasharray="10 7" opacity=".85"/>
+  <g fill="#264f3b" opacity=".76">
+    <circle cx="358" cy="202" r="4"/><circle cx="402" cy="352" r="4"/>
+    <circle cx="448" cy="451" r="4"/><circle cx="504" cy="537" r="4"/>
+    <circle cx="556" cy="599" r="4"/><circle cx="610" cy="651" r="4"/>
+    <circle cx="664" cy="682" r="4"/><circle cx="718" cy="707" r="4"/>
+    <circle cx="772" cy="718" r="4"/><circle cx="826" cy="731" r="4"/><circle cx="880" cy="740" r="4"/>
+  </g>
+  <g stroke="#879477" stroke-width="2.1" opacity=".85">
+    <path d="M353 303l10 10m-10 0 10-10M443 421l10 10m-10 0 10-10M551 520l10 10m-10 0 10-10M659 560l10 10m-10 0 10-10M767 544l10 10m-10 0 10-10M875 510l10 10m-10 0 10-10"/>
+  </g>
+  <g stroke="#d66b3f" stroke-width="2.2" stroke-linecap="round" opacity=".82">
+    <path d="M650 569V790" stroke-dasharray="5 8"/>
+    <circle cx="650" cy="566" r="12"/>
+    <path d="M695 564V695M687 564H703M687 695H703"/>
+  </g>
+  <g fill="#264f3b" font-family="Georgia, 'Times New Roman', serif" font-size="26" opacity=".8">
+    <text x="307" y="151" font-style="italic">L</text><text x="907" y="800" font-style="italic">t</text>
+    <text x="309" y="817">0</text><text x="437" y="830">t₁</text><text x="545" y="830">t₂</text>
+    <text x="761" y="830">t₃</text><text x="869" y="830">t₄</text>
+    <text x="738" y="690">L<tspan baseline-shift="sub" font-size="24">train</tspan></text>
+    <text x="746" y="487">L<tspan baseline-shift="sub" font-size="24">val</tspan></text>
+  </g>
+  <g fill="#d66b3f" font-family="Georgia, 'Times New Roman', serif" font-size="25" opacity=".8">
+    <text x="639" y="832">t*</text><text x="723" y="634">ΔL</text>
+  </g>
+</svg>

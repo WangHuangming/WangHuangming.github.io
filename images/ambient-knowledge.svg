@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" fill="none">
+  <defs>
+    <marker id="knowledge-arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="m1 1 6 3-6 3" stroke="#879477" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <marker id="knowledge-cite" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="m2 2 6 3-6 3" stroke="#d66b3f" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  </defs>
+  <!-- Irregular local communities, with distinct solid and inferred relations. -->
+  <g stroke="#879477" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".62">
+    <path d="M403 194c15 18 38 39 67 65M493 249l-6-85M465 283l-91 49M507 279l56-53M503 300c14 29 18 62 9 88M366 308l-7-77M384 333c31 37 71 53 111 64M501 145l65 48"/>
+    <path d="M677 388l65-106M693 404l94-43M693 434l108 36M664 449l20 100M646 446l-71 71M637 410c-38-11-73-16-107-11M708 554l92-63M803 451l-4-72M779 342l-29-64M748 264l69-61"/>
+    <path d="M394 639l66-52M404 662l101 10M373 674l-16 76M385 675l50 120M343 769l-47 49M370 781l49 25M451 806l64-60M527 702l2 19M480 573l-38-76M451 565l-74-35"/>
+    <path d="M706 737l-57-47M727 724l3-99M745 746l57 22M721 770l-17 83M693 760l-83 43M706 869l89 19M735 609l78-57M611 688l-68-6"/>
+  </g>
+  <g stroke="#879477" stroke-width="1.6" stroke-linecap="round" opacity=".45" stroke-dasharray="5 8">
+    <path d="M387 211c15 86 118 121 247 196M493 151c72-18 157 45 231 112M572 215c76 7 160 49 205 115M360 354c-17 77-19 128-2 151"/>
+    <path d="M518 427c-34 33-49 75-47 130M793 487c-53 25-138 43-209 44M686 570c-47 27-79 61-82 88M428 814c58 61 161 68 250 51M545 738c24 15 47 37 55 59"/>
+  </g>
+  <!-- Three subject hubs use hexagons; entity leaves have individual marks. -->
+  <g stroke="#264f3b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity=".8">
+    <path d="m486 248 28 16v33l-28 16-28-16v-33Zm178 136 31 18v36l-31 18-31-18v-36Zm-292 239 30 17v35l-30 18-30-18v-35Zm347 99 29 17v33l-29 17-29-17v-33Z"/>
+    <circle cx="489" cy="142" r="19"/><circle cx="363" cy="333" r="23"/><circle cx="574" cy="207" r="20"/><circle cx="508" cy="408" r="21"/>
+    <circle cx="739" cy="263" r="20"/><circle cx="796" cy="353" r="22"/><circle cx="817" cy="478" r="20"/><circle cx="691" cy="569" r="21"/>
+    <circle cx="564" cy="536" r="18"/><circle cx="469" cy="575" r="20"/><circle cx="357" cy="522" r="19"/><circle cx="438" cy="480" r="17"/>
+    <circle cx="353" cy="770" r="20"/><circle cx="434" cy="816" r="19"/><circle cx="529" cy="740" r="19"/><circle cx="525" cy="676" r="18"/>
+    <circle cx="628" cy="676" r="23"/><circle cx="730" cy="608" r="18"/><circle cx="599" cy="818" r="20"/><circle cx="700" cy="872" r="18"/>
+    <path d="m478 280 7 7 13-16m158 149h16m-8-8v16m-300 230h16m-8-8v16m340 97 7 7 12-16" stroke-width="1.9"/>
+    <path d="m481 140 6 6 9-10M789 350h13m-13 7h13M350 521l6 6 8-9M525 738h9m-5-4v9" stroke="#879477" stroke-width="1.6"/>
+  </g>
+  <!-- Source documents have folded corners, line-level evidence, and citations. -->
+  <g stroke="#264f3b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".77">
+    <path d="M336 130h57l20 21v80h-77Zm57 0v21h20"/>
+    <path d="M349 163h47m-47 12h38m-38 13h47m-47 13h32m-32 13h47" stroke-width="1.5"/>
+    <path d="M817 148h42l15 17v62h-57Zm42 0v17h15M829 178h32m-32 11h26m-26 11h30m-30 11h18" stroke-width="1.8"/>
+    <path d="M277 825h41l15 17v61h-56Zm41 0v17h15M288 854h34m-34 11h29m-29 11h34m-34 11h20" stroke-width="1.8"/>
+    <path d="M805 740h57l20 21v80h-77Zm57 0v21h20M819 775h46m-46 12h37m-37 13h46m-46 13h28m-28 13h46" stroke-width="1.8"/>
+    <path d="M798 862h44l16 17v66h-60Zm44 0v17h16M811 891h34m-34 12h26m-26 13h34m-34 13h18" stroke-width="1.8"/>
+    <path d="M824 508h40l15 16v63h-55Zm40 0v16h15M835 536h32m-32 12h25m-25 12h31m-31 12h18" stroke-width="1.8"/>
+  </g>
+  <!-- Cross-community paths differ from local links and expose citation lineage. -->
+  <g stroke="#879477" stroke-width="1.9" stroke-linecap="round" opacity=".66" marker-end="url(#knowledge-arrow)">
+    <path d="M510 292c67 14 101 64 133 92M650 451c-1 74-44 140-97 202M545 681c65 10 108 26 144 59"/>
+    <path d="M758 262c23-11 42-27 58-40M749 608c27-5 51-17 75-30M456 817c44 16 82 20 120 9"/>
+  </g>
+  <g stroke="#d66b3f" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" opacity=".83" marker-end="url(#knowledge-cite)">
+    <path d="M413 202c29 10 44 28 61 44"/>
+    <path d="M514 278c67 5 112 52 141 104"/>
+    <path d="M665 458c17 67-8 135-29 191"/>
+    <path d="M650 681c23 15 41 28 53 40"/>
+    <path d="M748 755c19 4 35 14 54 26"/>
+  </g>
+  <g stroke="#d66b3f" stroke-width="1.8" stroke-linecap="round" opacity=".78">
+    <path d="M346 190h54m-54 13h37M815 790h54m-54 13h44"/>
+    <circle cx="486" cy="280" r="8"/><circle cx="664" cy="420" r="8"/><circle cx="628" cy="676" r="8"/>
+    <path d="M616 672h3m18 7h3"/>
+  </g>
+  <g fill="#264f3b" opacity=".68" font-family="Georgia, serif" font-size="26" font-style="italic">
+    <text x="420" y="158">d₁</text><text x="849" y="724">dₖ</text><text x="519" y="350">r₁</text><text x="586" y="608">r₂</text>
+    <text x="407" y="294">∈</text><text x="750" y="409">≃</text><text x="450" y="729">∈</text><text x="564" y="875">≃</text>
+  </g>
+  <g fill="#879477" opacity=".43">
+    <circle cx="574" cy="207" r="5"/><circle cx="508" cy="408" r="5"/><circle cx="691" cy="569" r="5"/>
+    <circle cx="469" cy="575" r="5"/><circle cx="434" cy="816" r="5"/><circle cx="730" cy="608" r="5"/><circle cx="700" cy="872" r="5"/>
+  </g>
+</svg>

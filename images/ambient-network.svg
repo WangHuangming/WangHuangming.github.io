@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" fill="none">
+  <!-- Widely spaced layers keep the graph legible when most of it is offscreen. -->
+  <g stroke="#879477" stroke-width="2.2" stroke-linecap="round" opacity=".62">
+    <path d="M149 162C210 132 249 106 320 102M149 177C217 190 252 246 321 271"/>
+    <path d="M146 356C213 316 254 287 321 282M147 387C212 423 251 460 321 468"/>
+    <path d="M150 574C220 567 250 493 321 478M149 583C219 610 249 650 321 659"/>
+    <path d="M149 780C218 751 252 688 321 675M148 800C211 832 248 869 321 870"/>
+    <path d="M379 102C461 108 500 156 581 168M376 115C445 169 508 308 583 349"/>
+    <path d="M379 278C463 263 501 193 582 177M378 289C457 314 506 351 581 357"/>
+    <path d="M379 468C457 457 502 389 583 369M379 478C461 504 500 542 581 549"/>
+    <path d="M379 660C458 638 505 568 582 556M379 674C462 691 503 733 581 739"/>
+    <path d="M379 864C454 837 502 761 582 748M379 875C460 885 505 918 581 920"/>
+    <path d="M639 169C710 172 757 209 831 218M637 182C713 246 754 391 833 429"/>
+    <path d="M639 355C713 336 752 248 833 229M639 365C709 384 756 430 831 438"/>
+    <path d="M639 544C711 512 756 461 831 447M639 559C711 590 756 651 831 663"/>
+    <path d="M639 735C714 718 756 675 831 667M639 747C711 772 756 838 831 847"/>
+    <path d="M639 915C708 900 756 861 831 853"/>
+  </g>
+  <g stroke="#879477" stroke-width="2" stroke-linecap="round" opacity=".47">
+    <path d="M-65 142C-4 143 28 160 91 168M-65 370H90M-65 600C-2 595 29 583 90 576M-65 817C-2 810 31 794 90 790"/>
+    <path d="M889 220C948 220 1000 190 1060 184M889 440C947 442 1002 451 1060 452M889 665C949 665 1000 631 1060 620M889 850C947 851 1002 882 1060 890"/>
+  </g>
+  <g stroke="#264f3b" stroke-width="2.6" opacity=".78">
+    <circle cx="120" cy="170" r="29"/><circle cx="120" cy="370" r="29"/>
+    <circle cx="120" cy="575" r="29"/><circle cx="120" cy="790" r="29"/>
+    <circle cx="350" cy="100" r="29"/><circle cx="350" cy="280" r="29"/>
+    <circle cx="350" cy="470" r="29"/><circle cx="350" cy="665" r="29"/>
+    <circle cx="350" cy="870" r="29"/>
+    <circle cx="610" cy="170" r="29"/><circle cx="610" cy="360" r="29"/>
+    <circle cx="610" cy="550" r="29"/><circle cx="610" cy="740" r="29"/>
+    <circle cx="610" cy="920" r="29"/>
+    <circle cx="860" cy="220" r="29"/><circle cx="860" cy="440" r="29"/>
+    <circle cx="860" cy="665" r="29"/><circle cx="860" cy="850" r="29"/>
+  </g>
+  <g fill="#879477" opacity=".42">
+    <circle cx="120" cy="170" r="10"/><circle cx="120" cy="790" r="10"/>
+    <circle cx="350" cy="280" r="10"/><circle cx="350" cy="870" r="10"/>
+    <circle cx="610" cy="550" r="10"/><circle cx="860" cy="665" r="10"/>
+  </g>
+  <g stroke="#d66b3f" stroke-width="2.6" stroke-linecap="round" opacity=".83">
+    <path d="M-65 370H90M147 387C212 423 251 460 321 468M379 468C457 457 502 389 583 369M639 365C709 384 756 430 831 438M889 440C947 442 1002 451 1060 452"/>
+    <circle cx="120" cy="370" r="11"/><circle cx="860" cy="440" r="11"/>
+  </g>
+  <!-- Weighted aggregation, a bias input, and the activation transfer curve. -->
+  <g stroke="#264f3b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity=".61">
+    <path d="M327 414q23 0 23 27m-5-9 5 9 5-9" stroke-dasharray="4 6"/>
+    <path d="m463 434 12-5-5 12M470 515l11 8-13 1M716 390l13 7-14 2"/>
+    <path d="M429 111H562m-10-5 10 5-10 5M461 121V39m-5 10 5-10 5 10"/>
+    <path d="M430 76H558" stroke-dasharray="4 7" opacity=".7"/>
+    <path d="M442 102C465 102 474 101 482 88C490 75 495 57 509 50C520 44 539 45 553 45" stroke-width="2.2"/>
+    <path d="M312 34H388M312 34v12m76-12v12M571 34H648M571 34v12m77-12v12"/>
+  </g>
+  <g fill="#264f3b" font-family="Georgia, 'Times New Roman', serif" font-size="27" opacity=".74">
+    <text x="120" y="619" text-anchor="middle">aᵢ</text>
+    <text x="287" y="410">bⱼ</text><text x="451" y="398">wⱼᵢ</text>
+    <text x="475" y="569">wₖⱼ</text><text x="688" y="446">aⱼ</text>
+    <text x="330" y="24">ℓ</text><text x="583" y="24">ℓ+1</text>
+    <text x="455" y="28" font-size="24">σ(z)</text><text x="574" y="119" font-size="24">z</text>
+    <text x="353" y="961">zⱼ = ∑ᵢ wⱼᵢaᵢ + bⱼ</text>
+    <text x="691" y="961">aⱼ = σ(zⱼ)</text>
+    <text x="350" y="674" text-anchor="middle">Σ</text>
+    <text x="610" y="749" text-anchor="middle">σ</text>
+  </g>
+  <g fill="#d66b3f" font-family="Georgia, 'Times New Roman', serif" font-size="28" text-anchor="middle" opacity=".82">
+    <text x="350" y="480">Σ</text><text x="610" y="369">σ</text>
+  </g>
+</svg>

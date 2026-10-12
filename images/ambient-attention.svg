@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" fill="none">
+  <!-- Causal attention weights: masked future tokens remain zero. -->
+  <g transform="matrix(1 .15 -.2 1 240 130)">
+    <g fill="#879477">
+      <path d="M0 0h70v70H0z" opacity=".25"/>
+      <path d="M0 70h70v70H0zM70 70h70v70H70z" opacity=".16"/>
+      <path d="M70 140h70v70H70zM140 140h70v70H140z" opacity=".24"/>
+      <path d="M0 210h70v70H0zM210 210h70v70H210z" opacity=".14"/>
+      <path d="M140 210h70v70H140z" opacity=".35"/>
+      <path d="M70 280h70v70H70zM210 280h70v70H210zM280 280h70v70H280z" opacity=".22"/>
+      <path d="M0 350h70v70H0zM140 350h70v70H140zM350 350h70v70H350z" opacity=".15"/>
+      <path d="M280 350h70v70H280z" opacity=".36"/>
+      <path d="M70 420h70v70H70zM210 420h70v70H210zM350 420h70v70H350zM420 420h70v70H420z" opacity=".19"/>
+      <path d="M0 490h70v70H0zM280 490h70v70H280zM490 490h70v70H490z" opacity=".23"/>
+      <path d="M140 490h70v70H140z" opacity=".34"/>
+      <path d="M70 560h70v70H70zM210 560h70v70H210zM350 560h70v70H350zM560 560h70v70H560z" opacity=".18"/>
+      <path d="M490 560h70v70H490z" opacity=".33"/>
+    </g>
+    <g fill="#d66b3f">
+      <path d="M70 210h70v70H70z" opacity=".23"/>
+      <path d="M210 350h70v70H210z" opacity=".31"/>
+      <path d="M420 560h70v70H420z" opacity=".24"/>
+    </g>
+    <g stroke="#264f3b" stroke-width="2" opacity=".62">
+      <path d="M0 0V630M70 0V630M140 0V630M210 0V630M280 0V630M350 0V630M420 0V630M490 0V630M560 0V630M630 0V630"/>
+      <path d="M0 0H630M0 70H630M0 140H630M0 210H630M0 280H630M0 350H630M0 420H630M0 490H630M0 560H630M0 630H630"/>
+    </g>
+    <g stroke="#264f3b" stroke-width="2.6" stroke-linecap="round" opacity=".73">
+      <path d="M24-27H46M94-27H116M164-27H186M234-27H256M304-27H326M374-27H396M444-27H466M514-27H536M584-27H606"/>
+      <path d="M-28 26V44M-28 96V114M-28 166V184M-28 236V254M-28 306V324M-28 376V394M-28 446V464M-28 516V534M-28 586V604"/>
+    </g>
+    <g stroke="#879477" stroke-width="2.2" stroke-linecap="round" opacity=".65">
+      <path d="M35-50V-94Q35-112 16-112H-165M245-50V-136Q245-154 263-154H511M455-50V-92Q455-110 474-110H758"/>
+      <path d="M-50 105H-98Q-116 105-116 124V204M-50 385H-162Q-181 385-181 405V540M-50 595H-102Q-120 595-120 614V818"/>
+      <path d="M665 175H717Q735 175 735 193V327H843M665 455H766M595 665V742Q595 760 613 760H819"/>
+    </g>
+    <path d="M-193 245H-49M105-51V-180M245 665V810" stroke="#d66b3f" stroke-width="2.6" stroke-linecap="round" opacity=".75"/>
+    <g stroke="#879477" stroke-width="1.5" opacity=".49">
+      <path d="m91 22 27 26m43-26 27 26m43-26 27 26m43-26 27 26m43-26 27 26m43-26 27 26m43-26 27 26m43-26 27 26"/>
+      <path d="m161 92 27 26m43-26 27 26m43-26 27 26m43-26 27 26m43-26 27 26m43-26 27 26m43-26 27 26"/>
+      <path d="m231 162 27 26m43-26 27 26m43-26 27 26m43-26 27 26m43-26 27 26m43-26 27 26"/>
+      <path d="m301 232 27 26m43-26 27 26m43-26 27 26m43-26 27 26m43-26 27 26"/>
+      <path d="m371 302 27 26m43-26 27 26m43-26 27 26m43-26 27 26m-167 44 27 26m43-26 27 26m43-26 27 26m-97 44 27 26m43-26 27 26m-27 44 27 26"/>
+    </g>
+    <g fill="#264f3b" font-family="Georgia, 'Times New Roman', serif" font-size="26" opacity=".7">
+      <text x="27" y="114">a₂₁</text><text x="153" y="254">a₄₃</text>
+      <text x="297" y="394">a₆₅</text><text x="504" y="604">a₉₈</text>
+      <text x="313" y="-51">j</text><text x="-64" y="322">i</text>
+    </g>
+  </g>
+  <!-- Query/key scoring enters the matrix; weighted values leave beneath it. -->
+  <g stroke="#264f3b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity=".66">
+    <path d="M414 60q38 14 72 42M572 60q-32 17-65 42M496 128v24m-5-9 5 9 5-9"/>
+    <path d="M385 839h25m-25 18h25m-25 18h25m-25 18h25" stroke-width="2.4"/>
+    <path d="M432 871H509m-10-5 10 5-10 5"/>
+    <path d="M543 841h56m-56 18h31m-31 18h70m-70 18h43" stroke-width="2.4"/>
+    <path d="M507 788q-9 29-54 34" stroke-dasharray="4 7"/>
+  </g>
+  <g fill="#264f3b" font-family="Georgia, 'Times New Roman', serif" font-size="28" opacity=".76">
+    <text x="378" y="64">Q</text><text x="581" y="64">Kᵀ</text><text x="486" y="119">×</text>
+    <text x="309" y="881">A ×</text><text x="389" y="823">V</text><text x="635" y="881">O</text>
+    <text x="304" y="953" font-size="26">A = softmax(QKᵀ / √dₖ + M)</text>
+    <text x="640" y="904" font-size="24">∑ⱼ aᵢⱼ = 1</text>
+  </g>
+</svg>

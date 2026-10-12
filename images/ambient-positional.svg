@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" fill="none">
+  <!-- Position channels at different frequencies, sampled into a feature matrix. -->
+  <g stroke="#879477" stroke-width="1.5" opacity=".4">
+    <path d="M300 120V750M420 120V750M540 120V750M660 120V750M780 120V750M900 120V750" stroke-dasharray="5 10"/>
+    <path d="M245 220H980M245 430H980M245 640H980"/>
+    <path d="M270 140V290M270 350V510M270 560V720"/>
+    <path d="m265 160 5-20 5 20m-10 210 5-20 5 20m-10 210 5-20 5 20M960 215l20 5-20 5m0 200 20 5-20 5m0 200 20 5-20 5"/>
+  </g>
+  <g stroke="#264f3b" stroke-width="2.6" stroke-linecap="round" opacity=".78">
+    <path d="M300 220C360 115 420 115 480 220S600 325 660 220 780 115 840 220 960 325 1020 220"/>
+    <path d="M300 430C420 325 540 325 660 430S900 535 1020 430"/>
+    <path d="M300 640C540 535 780 535 1020 640"/>
+  </g>
+  <g stroke="#d66b3f" stroke-width="2.2" opacity=".82">
+    <path d="M540 135V720" stroke-dasharray="7 9"/>
+    <circle cx="540" cy="290" r="9"/><circle cx="540" cy="360" r="9"/><circle cx="540" cy="570" r="9"/>
+    <path d="M550 720v44q0 15 18 15h96m-14-6 14 6-14 6"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="27" fill="#264f3b" opacity=".75">
+    <text x="300" y="103">0</text><text x="420" y="103">1</text><text x="540" y="103">2</text><text x="660" y="103">3</text><text x="780" y="103">4</text><text x="900" y="103">5</text>
+    <text x="282" y="320">sin(ω₀p)</text><text x="282" y="530">sin(ω₁p)</text><text x="282" y="740">sin(ω₂p)</text>
+    <text x="334" y="904">eₚ + PE(p)</text><text x="697" y="745">PE(2)</text>
+  </g>
+  <g stroke="#879477" stroke-width="2" opacity=".65">
+    <path d="M687 765h-14v137h14m202-137h14v137h-14"/>
+    <path d="M700 781h175M700 823h175M700 865h175" stroke-dasharray="25 13"/>
+    <path d="M613 888h43m-12-6 12 6-12 6"/>
+  </g>
+  <g fill="#879477" opacity=".3">
+    <path d="M700 769h25v24h-25zm38 0h25v24h-25zm76 42h25v24h-25zm-114 42h25v24h-25z"/>
+  </g>
+  <g fill="#d66b3f" opacity=".42"><path d="M776 769h25v24h-25zm-38 42h25v24h-25zm114 42h25v24h-25z"/></g>
+</svg>

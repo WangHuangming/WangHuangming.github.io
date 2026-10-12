@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" fill="none">
+  <!-- Axis-aligned feature tests route a sample to terminal class distributions. -->
+  <g stroke="#264f3b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".72">
+    <path d="M570 224V270H410V316M570 270H730V316"/>
+    <path d="M410 384V439H310V516M410 439H500V506"/>
+    <path d="M730 384V439H680V506M730 439H850V516"/>
+    <path d="M500 574V641H440V720M500 641H570V720"/>
+    <path d="M680 574V670H650V760M680 670H770V760"/>
+    <rect x="496" y="156" width="148" height="68" rx="4"/>
+    <rect x="336" y="316" width="148" height="68" rx="4"/>
+    <rect x="656" y="316" width="148" height="68" rx="4"/>
+    <rect x="426" y="506" width="148" height="68" rx="4"/>
+    <rect x="606" y="506" width="148" height="68" rx="4"/>
+  </g>
+  <g stroke="#d66b3f" stroke-width="2.8" stroke-linecap="round" opacity=".8">
+    <path d="M570 224V270H410V316M410 384V439H500V506M500 574V641H440V720"/>
+    <path d="M488 190H474M336 350H322M426 540H412"/>
+  </g>
+  <g fill="#264f3b" font-family="Georgia, 'Times New Roman', serif" font-size="26" text-anchor="middle" opacity=".84">
+    <text x="570" y="199">x₁ ≤ 0.6</text>
+    <text x="410" y="359">x₂ ≤ 0.4</text>
+    <text x="730" y="359">x₃ ≤ 0.7</text>
+    <text x="500" y="549">x₃ ≤ 0.2</text>
+    <text x="680" y="549">x₂ ≤ 0.8</text>
+  </g>
+  <g fill="#879477" font-family="Georgia, 'Times New Roman', serif" font-size="25" opacity=".8">
+    <text x="454" y="255">≤</text><text x="660" y="255">&gt;</text>
+    <text x="344" y="424">≤</text><text x="458" y="424">&gt;</text>
+    <text x="688" y="424">≤</text><text x="796" y="424">&gt;</text>
+    <text x="451" y="626">≤</text><text x="532" y="626">&gt;</text>
+    <text x="641" y="655">≤</text><text x="725" y="655">&gt;</text>
+  </g>
+  <!-- Each leaf shows the same three class bins, with different probabilities. -->
+  <g stroke="#264f3b" stroke-width="1.8" stroke-linecap="round" opacity=".7">
+    <path d="M274 592H346M814 592H886M404 806H476M534 806H606M614 846H686M734 846H806"/>
+    <path d="M274 588V597M346 588V597M814 588V597M886 588V597M404 802V811M476 802V811M534 802V811M606 802V811M614 842V851M686 842V851M734 842V851M806 842V851"/>
+  </g>
+  <g fill="#879477" opacity=".55">
+    <path d="M280 548h14v44h-14zM302 570h14v22h-14zM324 579h14v13h-14z"/>
+    <path d="M820 575h14v17h-14zM842 565h14v27h-14zM864 537h14v55h-14z"/>
+    <path d="M410 748h14v58h-14zM432 788h14v18h-14zM454 797h14v9h-14z"/>
+    <path d="M540 785h14v21h-14zM562 752h14v54h-14zM584 793h14v13h-14z"/>
+    <path d="M620 825h14v21h-14zM642 798h14v48h-14zM664 819h14v27h-14z"/>
+    <path d="M740 833h14v13h-14zM762 815h14v31h-14zM784 791h14v55h-14z"/>
+  </g>
+  <path d="M410 748h14v58h-14z" fill="#d66b3f" opacity=".72"/>
+  <g fill="#264f3b" font-family="Georgia, 'Times New Roman', serif" font-size="24" text-anchor="middle" opacity=".7">
+    <text x="310" y="630">p(y | ℓ₁)</text><text x="850" y="630">p(y | ℓ₆)</text>
+    <text x="440" y="841">ℓ₂</text><text x="570" y="841">ℓ₃</text>
+    <text x="650" y="883">ℓ₄</text><text x="770" y="883">ℓ₅</text>
+  </g>
+</svg>

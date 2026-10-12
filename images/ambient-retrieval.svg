@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" fill="none">
+  <defs>
+    <marker id="retrieval-arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="m1 1 6 3-6 3" stroke="#879477" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <marker id="retrieval-match" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="m2 2 6 3-6 3" stroke="#d66b3f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  </defs>
+  <!-- Document content becomes overlapping passages, then indexed vectors. -->
+  <g stroke="#264f3b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity=".78">
+    <path d="M333 158h101l31 32v157H333Z"/>
+    <path d="M434 158v33h31M348 145h98l32 32v156" stroke="#879477" stroke-width="1.8"/>
+    <path d="M353 210h79m-79 15h88m-88 16h70m-70 29h88m-88 16h78m-78 16h88m-88 16h52" stroke-width="1.8"/>
+    <path d="M346 218h101v31H346Zm0 59h101v33H346Z" stroke="#d66b3f" stroke-width="1.6" stroke-dasharray="4 5"/>
+    <path d="M591 166h141v41H591Zm12 57h141v41H603Zm-12 57h141v41H591Z"/>
+    <path d="M608 181h73m-73 12h104m-91 45h99m-99 12h67m-79 45h99m-99 12h85" stroke-width="1.6"/>
+    <path d="M609 199h35m-23 45h35m-48 57h35" stroke="#d66b3f" stroke-width="2.6"/>
+  </g>
+  <g stroke="#879477" stroke-width="2" stroke-linecap="round" opacity=".63" marker-end="url(#retrieval-arrow)">
+    <path d="M480 242h63q16 0 16-16v-27h23"/>
+    <path d="M544 242h48M544 242v45q0 15 15 15h23"/>
+    <path d="M665 334v37q0 18 18 18h54v24"/>
+  </g>
+  <!-- Each index row keeps a passage identifier and a small vector profile. -->
+  <g stroke="#264f3b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".76">
+    <path d="M605 423h186m-186 43h186m-186 43h186m-186 43h186m-186 43h186" stroke="#879477" stroke-width="1.5"/>
+    <path d="M620 409h-14v158h14m161-158h14v158h-14"/>
+    <path d="M643 433v22m17-13v13m17-28v28m17-15v15m17-7v7m17-28v28m17-19v19m17-9v9"/>
+    <path d="M643 481v17m17-27v27m17-11v11m17-22v22m17-15v15m17-27v27m17-7v7m17-19v19"/>
+    <path d="M643 522v19m17-8v8m17-24v24m17-12v12m17-24v24m17-9v9m17-27v27m17-16v16"/>
+    <path d="M634 444h-3m0 43h3m-3 43h3" stroke="#d66b3f" stroke-width="2.8"/>
+    <path d="M791 408q28 4 28 32v104q0 29-28 37" stroke="#879477" stroke-width="1.8" stroke-dasharray="4 6"/>
+    <circle cx="810" cy="445" r="4"/><circle cx="820" cy="487" r="4"/><circle cx="810" cy="530" r="4"/>
+  </g>
+  <g fill="#264f3b" opacity=".72" font-family="Georgia, serif" font-size="26" font-style="italic">
+    <text x="553" y="451">v₁</text><text x="553" y="493">v₂</text><text x="553" y="536">v₃</text>
+    <text x="351" y="141">d₁</text><text x="650" y="149">cᵢ</text><text x="709" y="669">k</text><text x="331" y="504">q</text>
+  </g>
+  <!-- Query and index meet; orange traces preserve two retrieved matches. -->
+  <g stroke="#264f3b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".75">
+    <circle cx="363" cy="553" r="40"/>
+    <path d="m347 552 9 9 22-22m-5 48 17 20"/>
+    <path d="M625 650h54v25h-54Zm0 39h54v25h-54Zm0 39h54v25h-54Z"/>
+    <path d="M635 661h32m-32 39h32m-32 39h19" stroke-width="1.5"/>
+    <path d="M694 648h8v69h-8" stroke="#d66b3f"/>
+    <path d="M737 609c6 17 8 31-5 43" stroke="#879477" stroke-width="1.8" marker-end="url(#retrieval-arrow)"/>
+  </g>
+  <g stroke="#879477" stroke-width="1.8" stroke-linecap="round" opacity=".5" stroke-dasharray="4 7">
+    <path d="M404 554c73-36 117-33 186-67M405 561c93 5 127 24 193 9"/>
+    <path d="M806 445c50 91-16 140-121 217M819 487c33 84-38 119-134 214M805 530c35 84-27 145-120 210"/>
+  </g>
+  <g stroke="#d66b3f" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" opacity=".82" marker-end="url(#retrieval-match)">
+    <path d="M405 551c70-50 119-94 199-106"/>
+    <path d="M798 445c48 90-8 142-111 216"/>
+    <path d="M798 530c25 67-36 117-111 169"/>
+    <path d="M618 663c-68-2-57 115-97 115M618 702c-44 5-45 100-96 100"/>
+  </g>
+  <!-- The final context contains the matched passages and their citations. -->
+  <g stroke="#264f3b" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" opacity=".78">
+    <path d="M342 718h148l27 28v156H342Z"/>
+    <path d="M490 718v29h27M360 744h87m-87 15h113m-113 108h129m-129 16h79" stroke-width="1.7"/>
+    <path d="M356 774h144v17H356Zm0 25h144v17H356Z" stroke="#d66b3f" stroke-width="1.7"/>
+    <path d="M366 782h95m-95 25h79m-79 28h81m-81 15h99" stroke-width="1.6"/>
+    <path d="M477 779h11m-11 5h11m-11 18h11m-11 5h11" stroke="#879477" stroke-width="1.5"/>
+    <path d="M511 908h-13m-166-30v14" stroke="#879477" stroke-width="1.7"/>
+  </g>
+</svg>
