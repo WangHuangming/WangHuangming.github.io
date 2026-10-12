@@ -1,38 +1,38 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" fill="none">
   <!-- Uneven level sets drift toward a minimum in the right half of the field. -->
-  <g stroke="#879477" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".67">
+  <g stroke="#779d7f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".67">
     <path d="M130 652C100 473 271 233 492 143C682 59 927 129 1031 303C1134 484 1040 717 833 857C640 988 390 958 226 826C169 779 137 717 130 652Z"/>
     <path d="M226 640C208 489 351 315 543 251C716 185 892 267 955 415C1020 576 887 753 718 816C527 889 330 812 252 703C238 683 229 662 226 640Z"/>
     <path d="M322 624C310 507 426 383 586 336C735 291 858 363 900 486C947 619 833 730 686 775C524 823 381 748 337 667C329 653 324 638 322 624Z"/>
     <path d="M426 609C423 520 512 433 630 411C742 389 830 449 851 542C874 643 781 713 671 730C554 750 460 692 435 638C430 628 427 618 426 609Z"/>
   </g>
-  <g stroke="#264f3b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".74">
+  <g stroke="#286c48" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".74">
     <path d="M510 608C510 544 577 489 665 478C747 468 804 513 811 575C820 649 750 688 673 691C591 695 530 655 514 623C512 618 510 613 510 608Z"/>
     <path d="M586 608C586 567 625 535 684 532C740 527 775 554 778 599C780 639 735 661 688 657C638 655 600 635 589 617C587 614 586 611 586 608Z"/>
     <path d="M648 606C647 585 673 575 704 576C734 574 752 589 750 607C749 626 725 635 698 630C674 629 653 620 648 606Z"/>
   </g>
-  <g stroke="#d66b3f" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85">
+  <g stroke="#4f8c48" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85">
     <path d="M997 207Q882 258 790 323Q841 374 901 426Q785 437 671 456Q739 502 811 550Q742 553 674 567Q710 585 750 604Q725 599 702 600L717 610"/>
     <circle cx="997" cy="207" r="9"/><circle cx="790" cy="323" r="8"/>
     <circle cx="901" cy="426" r="8"/><circle cx="671" cy="456" r="7"/>
     <circle cx="811" cy="550" r="7"/><circle cx="674" cy="567" r="6"/>
     <circle cx="750" cy="604" r="5"/><circle cx="702" cy="600" r="4"/>
-    <circle cx="717" cy="610" r="7" fill="#d66b3f" stroke="none"/>
+    <circle cx="717" cy="610" r="7" fill="#4f8c48" stroke="none"/>
   </g>
   <!-- Local descent directions and the corresponding loss trace share the iteration index. -->
-  <g stroke="#264f3b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity=".63">
+  <g stroke="#286c48" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity=".63">
     <path d="M403 526 448 551m-11-1 11 1-6-10M551 415 577 454m-10-5 10 5-1-12"/>
     <path d="M857 696 815 675m7 10-7-10 12-1M479 743 511 703m-11 5 11-5-2 12"/>
     <path d="M335 42V135H550m-10-5 10 5-10 5M330 52l5-10 5 10"/>
     <path d="M370 130v10m40-10v10m40-10v10m40-10v10M330 90h10M330 55h10"/>
     <path d="M355 135V67M405 135V99M455 135V114M505 135V121" stroke-dasharray="3 6" opacity=".7"/>
   </g>
-  <path d="M346 51C368 73 372 87 396 96S425 107 447 113S482 119 525 122" stroke="#d66b3f" stroke-width="2" stroke-linecap="round" opacity=".71"/>
-  <g fill="#879477" opacity=".73">
+  <path d="M346 51C368 73 372 87 396 96S425 107 447 113S482 119 525 122" stroke="#4f8c48" stroke-width="2" stroke-linecap="round" opacity=".71"/>
+  <g fill="#779d7f" opacity=".73">
     <circle cx="355" cy="61" r="4"/><circle cx="405" cy="99" r="4"/>
     <circle cx="455" cy="115" r="4"/><circle cx="505" cy="121" r="4"/>
   </g>
-  <g fill="#264f3b" font-family="Georgia, 'Times New Roman', serif" font-size="27" opacity=".73">
+  <g fill="#286c48" font-family="Georgia, 'Times New Roman', serif" font-size="27" opacity=".73">
     <text x="349" y="29">L(θₜ)</text><text x="561" y="145">t</text>
     <text x="346" y="509">−∇L</text><text x="843" y="727">−∇L</text>
     <text x="793" y="302">θ₁</text><text x="912" y="421">θ₂</text>

@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" fill="none">
   <!-- Large vector-space field, drawn beyond the canvas for edge clipping. -->
-  <g stroke="#879477" stroke-width="1.8" opacity=".43">
+  <g stroke="#779d7f" stroke-width="1.8" opacity=".43">
     <path d="M-40 239 1080 183M-40 359 1080 303M-40 479 1080 423M-40 599 1080 543M-40 719 1080 663M-40 839 1080 783M-40 959 1080 903"/>
     <path d="M97-60 352 1100M217-60 472 1100M337-60 592 1100M457-60 712 1100M577-60 832 1100M697-60 952 1100M817-60 1072 1100M937-60 1192 1100"/>
   </g>
-  <g stroke="#264f3b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity=".75">
+  <g stroke="#286c48" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity=".75">
     <path d="M-60 686 1090 628M1080 621l10 7-10 8"/>
     <path d="M741 1065 514 29M509 42l5-13 10 10"/>
     <path d="m570 646 1 15m159-23 1 15m159-23 1 15M611 479l15-3m-49-154 15-3m-48-154 15-3m109 634 15-3" stroke-width="2"/>
     <circle cx="650" cy="650" r="7"/>
   </g>
-  <g stroke="#879477" stroke-width="2.2" stroke-dasharray="7 13" opacity=".7">
+  <g stroke="#779d7f" stroke-width="2.2" stroke-dasharray="7 13" opacity=".7">
     <ellipse cx="828" cy="324" rx="157" ry="102" transform="rotate(-21 828 324)"/>
     <ellipse cx="843" cy="756" rx="157" ry="89" transform="rotate(14 843 756)"/>
     <ellipse cx="574" cy="502" rx="106" ry="83" transform="rotate(-25 574 502)"/>
   </g>
-  <g stroke="#264f3b" stroke-width="2.4" opacity=".78">
+  <g stroke="#286c48" stroke-width="2.4" opacity=".78">
     <circle cx="740" cy="294" r="10"/><circle cx="786" cy="253" r="8"/>
     <circle cx="819" cy="297" r="12"/><circle cx="899" cy="287" r="9"/>
     <circle cx="931" cy="334" r="12"/><circle cx="885" cy="365" r="8"/>
@@ -28,26 +28,26 @@
     <circle cx="682" cy="119" r="7"/><circle cx="994" cy="512" r="9"/>
     <circle cx="1046" cy="841" r="8"/>
   </g>
-  <g fill="#879477" opacity=".6">
+  <g fill="#779d7f" opacity=".6">
     <circle cx="819" cy="297" r="7"/><circle cx="771" cy="370" r="5"/>
     <circle cx="881" cy="769" r="6"/><circle cx="537" cy="474" r="6"/>
     <circle cx="873" cy="216" r="6"/><circle cx="699" cy="790" r="6"/>
   </g>
-  <g stroke="#d66b3f" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85">
+  <g stroke="#4f8c48" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85">
     <path d="M650 650c51-81 115-194 187-291m-18 8 18-8-2 20"/>
     <circle cx="844" cy="349" r="13"/>
-    <circle cx="844" cy="349" r="4" fill="#d66b3f" stroke="none"/>
+    <circle cx="844" cy="349" r="4" fill="#4f8c48" stroke="none"/>
   </g>
-  <path d="M844 349 909 637M844 349 586 362" stroke="#879477" stroke-width="1.8" stroke-dasharray="5 11" opacity=".58"/>
+  <path d="M844 349 909 637M844 349 586 362" stroke="#779d7f" stroke-width="1.8" stroke-dasharray="5 11" opacity=".58"/>
   <!-- Basis components and local neighbour distances describe the same query. -->
-  <g stroke="#264f3b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" opacity=".58">
+  <g stroke="#286c48" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" opacity=".58">
     <path d="M650 650 732 646m-11-5 11 5-10 6M650 650 632 568m-3 12 3-12 8 9"/>
     <path d="M586 362l-7-6m7 6 8 4M909 637l-5-8m5 8 5 8"/>
     <path d="M838 337 825 309M857 353 876 361M831 354 782 367" stroke-dasharray="4 6"/>
     <path d="M814 318q-17 9-7 25M801 323l6-5m-3 21 7-3"/>
     <path d="M758 733 777 764M798 773 870 768M848 715 874 759" opacity=".7"/>
   </g>
-  <g fill="#264f3b" font-family="Georgia, 'Times New Roman', serif" font-size="27" opacity=".72">
+  <g fill="#286c48" font-family="Georgia, 'Times New Roman', serif" font-size="27" opacity=".72">
     <text x="708" y="680">e₁</text><text x="600" y="577">e₂</text>
     <text x="804" y="279">x₁</text><text x="892" y="396">x₂</text>
     <text x="729" y="410">x₃</text><text x="514" y="463">x₄</text>
@@ -56,5 +56,5 @@
     <text x="505" y="900">q = αe₁ + βe₂</text>
     <text x="507" y="943" font-size="24">dᵢ = ‖q − xᵢ‖₂</text>
   </g>
-  <text x="864" y="333" fill="#d66b3f" font-family="Georgia, 'Times New Roman', serif" font-size="29" opacity=".8">q</text>
+  <text x="864" y="333" fill="#4f8c48" font-family="Georgia, 'Times New Roman', serif" font-size="29" opacity=".8">q</text>
 </svg>

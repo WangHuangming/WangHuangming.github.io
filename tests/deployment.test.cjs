@@ -122,7 +122,7 @@ test('production page works when unversioned CSS and JS URLs return stale conten
       if (response.status() >= 400) failures.push(`${response.status()} ${response.url()}`);
     });
     await page.goto(`http://127.0.0.1:${server.address().port}/`, { waitUntil: 'networkidle' });
-    assert.equal(await page.locator('body').evaluate((element) => getComputedStyle(element).backgroundColor), 'rgb(247, 246, 240)');
+    assert.equal(await page.locator('body').evaluate((element) => getComputedStyle(element).backgroundColor), 'rgb(244, 248, 242)');
     assert.equal(await page.locator('.ambient-art').first().evaluate((element) => getComputedStyle(element).position), 'absolute');
     assert.equal(await page.locator('html').getAttribute('lang'), 'en');
     await page.locator('#language-toggle').click();

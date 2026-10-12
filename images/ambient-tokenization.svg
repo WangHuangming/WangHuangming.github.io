@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" fill="none">
   <!-- One sequence becomes discrete tokens, vocabulary IDs, embeddings, and position signals. -->
-  <g stroke="#264f3b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".72">
+  <g stroke="#286c48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".72">
     <path d="M332 157H375M385 157H405M415 157H452M462 157H480M490 157H523M533 157H553M563 157H606M616 157H641M651 157H683M693 157H720M730 157H765M775 157H824"/>
     <path d="M379 135V180M484 135V180M610 135V180M724 135V180" stroke-dasharray="3 7"/>
     <rect x="322" y="231" width="84" height="58" rx="5"/>
@@ -10,38 +10,38 @@
     <rect x="778" y="231" width="69" height="58" rx="5"/>
     <path d="M350 188V214M480 188V214M610 188V214M720 188V214M812 188V214M345 208L350 214 355 208M475 208L480 214 485 208M605 208L610 214 615 208M715 208L720 214 725 208M807 208L812 214 817 208"/>
   </g>
-  <g fill="#264f3b" font-family="Georgia, 'Times New Roman', serif" font-size="27" text-anchor="middle" opacity=".8">
+  <g fill="#286c48" font-family="Georgia, 'Times New Roman', serif" font-size="27" text-anchor="middle" opacity=".8">
     <text x="364" y="269">τ₀</text><text x="480" y="269">τ₁</text><text x="609" y="269">τ₂</text><text x="720" y="269">τ₃</text><text x="812" y="269">τ₄</text>
     <text x="364" y="372">17</text><text x="480" y="372">204</text><text x="609" y="372">8</text><text x="720" y="372">91</text><text x="812" y="372">6</text>
   </g>
-  <g stroke="#879477" stroke-width="1.8" stroke-linecap="round" opacity=".75">
+  <g stroke="#779d7f" stroke-width="1.8" stroke-linecap="round" opacity=".75">
     <path d="M364 301V331M480 301V331M609 301V331M720 301V331M812 301V331M359 325L364 331 369 325M475 325L480 331 485 325M604 325L609 331 614 325M715 325L720 331 725 325M807 325L812 331 817 325"/>
     <path d="M364 392V430M480 392V430M609 392V430M720 392V430M812 392V430M359 424L364 430 369 424M475 424L480 430 485 424M604 424L609 430 614 424M715 424L720 430 725 424M807 424L812 430 817 424"/>
   </g>
   <!-- Four dimensions per embedding: the distinct lengths denote different coordinates. -->
-  <g stroke="#264f3b" stroke-width="2" stroke-linecap="round" opacity=".7">
+  <g stroke="#286c48" stroke-width="2" stroke-linecap="round" opacity=".7">
     <path d="M339 450H330V576H339M390 450H399V576H390M455 450H446V576H455M506 450H515V576H506M584 450H575V576H584M635 450H644V576H635M695 450H686V576H695M746 450H755V576H746M787 450H778V576H787M838 450H847V576H838"/>
     <path d="M342 468H380M342 494H365M342 520H388M342 546H357M458 468H474M458 494H502M458 520H487M458 546H497M587 468H620M587 494H629M587 520H601M587 546H616M698 468H740M698 494H718M698 520H733M698 546H712M790 468H807M790 494H835M790 520H822M790 546H833"/>
   </g>
-  <g stroke="#d66b3f" stroke-width="2.8" stroke-linecap="round" opacity=".78">
+  <g stroke="#4f8c48" stroke-width="2.8" stroke-linecap="round" opacity=".78">
     <path d="M342 520H388M458 494H502M587 494H629M698 468H740M790 494H835"/>
   </g>
-  <g fill="#264f3b" font-family="Georgia, 'Times New Roman', serif" font-size="26" text-anchor="middle" opacity=".78">
+  <g fill="#286c48" font-family="Georgia, 'Times New Roman', serif" font-size="26" text-anchor="middle" opacity=".78">
     <text x="364" y="620">e₀</text><text x="480" y="620">e₁</text><text x="609" y="620">e₂</text><text x="720" y="620">e₃</text><text x="812" y="620">e₄</text>
     <text x="364" y="687">⊕</text><text x="480" y="687">⊕</text><text x="609" y="687">⊕</text><text x="720" y="687">⊕</text><text x="812" y="687">⊕</text>
   </g>
   <!-- Different frequencies share the same five token-position samples. -->
-  <g stroke="#879477" stroke-width="1.5" opacity=".48">
+  <g stroke="#779d7f" stroke-width="1.5" opacity=".48">
     <path d="M320 748H860M320 794H860M320 840H860"/>
     <path d="M364 716V870M480 716V870M609 716V870M720 716V870M812 716V870" stroke-dasharray="3 8"/>
   </g>
-  <g stroke="#264f3b" stroke-width="2.2" stroke-linecap="round" opacity=".75">
+  <g stroke="#286c48" stroke-width="2.2" stroke-linecap="round" opacity=".75">
     <path d="M320 748C365 711 410 711 455 748S545 785 590 748 680 711 725 748 815 785 860 748"/>
     <path d="M320 794C350 775 380 775 410 794S470 813 500 794 560 775 590 794 650 813 680 794 740 775 770 794 830 813 860 794"/>
   </g>
-  <path d="M320 840C350 818 410 811 455 825S525 863 590 858 676 823 725 824 815 859 860 855" stroke="#d66b3f" stroke-width="2.2" stroke-linecap="round" opacity=".8"/>
-  <g fill="#879477" opacity=".8">
+  <path d="M320 840C350 818 410 811 455 825S525 863 590 858 676 823 725 824 815 859 860 855" stroke="#4f8c48" stroke-width="2.2" stroke-linecap="round" opacity=".8"/>
+  <g fill="#779d7f" opacity=".8">
     <circle cx="364" cy="720" r="4"/><circle cx="480" cy="768" r="4"/><circle cx="609" cy="732" r="4"/><circle cx="720" cy="744" r="4"/><circle cx="812" cy="774" r="4"/>
   </g>
-  <text x="496" y="899" fill="#264f3b" font-family="Georgia, 'Times New Roman', serif" font-size="28" opacity=".78">zᵢ = eᵢ + PE(i)</text>
+  <text x="496" y="899" fill="#286c48" font-family="Georgia, 'Times New Roman', serif" font-size="28" opacity=".78">zᵢ = eᵢ + PE(i)</text>
 </svg>

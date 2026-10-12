@@ -1,14 +1,14 @@
-/* Warm paper, generous type, small moments of play. No external fonts or icons. */
+/* Forest green, fresh paper, small moments of play. No external fonts or icons. */
 :root{
-  --paper:#f7f6f0;
-  --ink:#243c32;
-  --body:#58635b;
-  --muted:#626e5e;
-  --line:#dcded3;
-  --green:#264f3b;
-  --lime:#e9efcf;
-  --orange:#d66b3f;
-  --white:#fffefa;
+  --paper:#f4f8f2;
+  --ink:#183b2b;
+  --body:#4d6456;
+  --muted:#506955;
+  --line:#d3e0d0;
+  --green:#236642;
+  --lime:#d8edab;
+  --accent:#c89a67;
+  --white:#fcfefa;
   --serif:Georgia,'Times New Roman','Noto Serif SC',SimSun,serif;
   --sans:'Segoe UI',Arial,'PingFang SC','Microsoft YaHei',sans-serif
 }
@@ -29,7 +29,8 @@ body{
   -webkit-font-smoothing:antialiased
 }
 ::selection{
-  background:#d7e6a6
+  background:var(--lime);
+  color:var(--ink)
 }
 a{
   color:inherit;
@@ -50,7 +51,7 @@ img,svg{
   max-width:100%
 }
 button:focus-visible,a:focus-visible,summary:focus-visible{
-  outline:3px solid var(--orange);
+  outline:3px solid var(--green);
   outline-offset:6px;
   border-radius:3px
 }
@@ -91,7 +92,7 @@ em{
   position:sticky;
   top:0;
   z-index:10;
-  background:rgba(247,246,240,.96);
+  background:rgba(244,248,242,.96);
   border-bottom:1px solid var(--line);
   backdrop-filter:blur(12px)
 }
@@ -115,7 +116,7 @@ em{
 .wordmark span{
   font-family:var(--sans);
   font-size:28px;
-  color:var(--orange);
+  color:var(--accent);
   font-weight:400;
   letter-spacing:0;
   transform:translateY(-4px)
@@ -133,7 +134,7 @@ em{
   padding-block:8px
 }
 .nav-links>a:hover{
-  color:#b1512d
+  color:var(--green)
 }
 .nav-contact{
   display:flex;
@@ -153,7 +154,7 @@ em{
   min-height:35px;
   padding:4px 12px;
   background:transparent;
-  border:1px solid #c7cdc1;
+  border:1px solid #b7ccb9;
   border-radius:5px;
   font-size:12px;
   font-weight:600
@@ -162,12 +163,15 @@ em{
   display:inline-flex
 }
 .language-toggle:hover{
-  background:#e9ecdf
+  background:#ddebdd
 }
 .menu-toggle{
   display:none
 }
 /* Introduction and photographic postcard */
+.hero-stage{
+  background:linear-gradient(180deg,#eaf3e6,var(--paper))
+}
 .hero{
   display:grid;
   grid-template-columns:1.35fr 1fr;
@@ -190,8 +194,8 @@ em{
   width:7px;
   height:7px;
   border-radius:50%;
-  background:#598355;
-  box-shadow:0 0 0 4px #e7ebdd
+  background:#3c8751;
+  box-shadow:0 0 0 4px #e0edda
 }
 .hero h1{
   font-size:clamp(43px,4.8vw,66px);
@@ -212,8 +216,8 @@ em{
   right:-2px;
   bottom:-4px;
   height:7px;
-  border:2px solid #a8ba76;
-  border-color:#a8ba76 transparent transparent transparent;
+  border:2px solid #7da956;
+  border-color:#7da956 transparent transparent transparent;
   border-radius:50%;
   transform:rotate(-3deg)
 }
@@ -224,7 +228,7 @@ em{
   margin-left:9px;
   vertical-align:top;
   transform:translateY(15px) rotate(13deg);
-  stroke:var(--orange);
+  stroke:var(--accent);
   stroke-width:2.8;
   stroke-linecap:round
 }
@@ -259,7 +263,7 @@ em{
   color:var(--white)
 }
 .button-dark:hover{
-  background:#183c29;
+  background:#183b2b;
   transform:translateY(-2px)
 }
 .text-link{
@@ -267,13 +271,13 @@ em{
   gap:18px;
   align-items:center;
   font-size:13px;
-  border-bottom:1px solid #acb7a7;
+  border-bottom:1px solid #91ad97;
   padding:4px 0;
   font-weight:500
 }
 .text-link:hover{
-  color:#b1512d;
-  border-color:#b1512d
+  color:var(--green);
+  border-color:var(--green)
 }
 .hero-location{
   display:flex;
@@ -281,7 +285,7 @@ em{
   gap:7px;
   margin-top:32px;
   font-size:11px;
-  color:#646e5c
+  color:var(--muted)
 }
 .hero-location svg{
   width:15px;
@@ -301,7 +305,7 @@ em{
   background:var(--white);
   padding:13px 13px 0;
   transform:rotate(4deg);
-  box-shadow:0 7px 22px #27351e13,0 0 0 1px #e5e5db;
+  box-shadow:0 7px 22px #193f2814,0 0 0 1px #d3e0d0;
   position:relative
 }
 .photo-frame::before{
@@ -312,7 +316,7 @@ em{
   left:36%;
   height:31px;
   width:90px;
-  background:#e7dfbbc7;
+  background:#d5b58ac7;
   transform:rotate(-9deg)
 }
 .photo-frame img{
@@ -331,7 +335,7 @@ em{
   font-family:var(--serif);
   font-style:italic;
   font-size:11px;
-  color:#667365;
+  color:var(--muted);
   padding-inline:3px
 }
 .photo-frame figcaption>span:last-child{
@@ -346,7 +350,7 @@ em{
   font-size:16px;
   font-style:italic;
   transform:rotate(-8deg);
-  color:#77826d
+  color:#5b7862
 }
 .note-arrow{
   position:absolute;
@@ -354,7 +358,7 @@ em{
   right:24px;
   width:66px;
   fill:none;
-  stroke:#84916c;
+  stroke:#779d7f;
   stroke-width:1.7;
   stroke-linecap:round;
   stroke-linejoin:round
@@ -374,9 +378,9 @@ em{
   border-radius:50%;
   transform:rotate(-12deg);
   box-shadow:0 3px 6px #172b2312;
-  border:1px solid #cdd7aa;
+  border:1px solid #b5d188;
   outline:4px solid var(--lime);
-  color:#436032
+  color:#365431
 }
 .portrait-sticker>span:first-child{
   font-size:10px;
@@ -415,7 +419,7 @@ em{
   white-space:nowrap
 }
 .small-star{
-  color:var(--orange);
+  color:var(--accent);
   font-size:19px;
   line-height:1
 }
@@ -431,7 +435,7 @@ em{
   margin-bottom:34px
 }
 .section-index{
-  color:#626e59;
+  color:var(--muted);
   margin-bottom:15px
 }
 .section-heading h2{
@@ -461,8 +465,8 @@ em{
   transition:border-color .2s,box-shadow .2s
 }
 .project-card:hover{
-  border-color:#b6c0a9;
-  box-shadow:0 6px 18px #20321a07
+  border-color:#91b397;
+  box-shadow:0 6px 18px #183b2b09
 }
 .project-visual{
   height:243px;
@@ -481,13 +485,13 @@ em{
 .visual-dot{
   width:5px;
   height:5px;
-  background:#c6d5a4;
+  background:#d8edab;
   border-radius:50%
 }
 .mats-visual{
-  background:#244637;
-  color:#c8d8b2;
-  background-image:radial-gradient(#9cab8c23 .7px,transparent .7px);
+  background:#173f2d;
+  color:#d5e7bf;
+  background-image:radial-gradient(#b5d39126 .7px,transparent .7px);
   background-size:13px 13px
 }
 .agent-flow{
@@ -498,8 +502,8 @@ em{
   gap:10px
 }
 .agent-node{
-  border:1px solid #71846b;
-  background:#2e5040;
+  border:1px solid #648866;
+  background:#24513b;
   width:120px;
   min-width:0;
   padding:13px 12px 11px;
@@ -516,7 +520,7 @@ em{
 .agent-node strong{
   font-weight:500;
   font-size:12px;
-  color:#f2f2db
+  color:#f2f8e9
 }
 .agent-node small{
   font-size:8px;
@@ -525,7 +529,7 @@ em{
 }
 .flow-arrow{
   font-size:19px;
-  color:#a9ba86
+  color:#bad39e
 }
 .trace-row{
   display:flex;
@@ -534,17 +538,17 @@ em{
   gap:9px;
   margin-top:22px;
   font-size:8px;
-  color:#a9bea3
+  color:#bcd2b8
 }
 .trace-row code{
   font-size:9px;
-  color:#d7deb6
+  color:#d8edab
 }
 .trace-dot{
   width:5px;
   height:5px;
   border-radius:50%;
-  background:#b4c67c
+  background:#c3df92
 }
 .visual-caption{
   position:absolute;
@@ -555,8 +559,8 @@ em{
   opacity:.65
 }
 .law-visual{
-  background:#ebe8f0;
-  color:#655774
+  background:#dcefe5;
+  color:#3b6850
 }
 .law-demo{
   display:flex;
@@ -573,22 +577,22 @@ em{
 }
 .paper-back{
   position:absolute;
-  background:#d4cbde;
+  background:#b9d8c5;
   width:85px;
   height:113px;
   top:6px;
   left:7px;
   transform:rotate(-11deg);
-  border:1px solid #bcafcb;
+  border:1px solid #95bfa6;
   border-radius:4px
 }
 .paper-front{
   position:relative;
   width:90px;
   height:120px;
-  background:#fbfaf7;
-  border:1px solid #c7bed0;
-  box-shadow:0 2px 4px #33214709;
+  background:#fcfefa;
+  border:1px solid #a9cbb6;
+  box-shadow:0 2px 4px #173f2d09;
   border-radius:4px;
   padding:11px 13px;
   transform:rotate(-4deg)
@@ -603,7 +607,7 @@ em{
   display:block;
   width:100%;
   height:2px;
-  background:#d7cfe0;
+  background:#b8d6c4;
   margin:5px 0
 }
 .paper-front i:nth-of-type(3){
@@ -616,13 +620,13 @@ em{
   letter-spacing:.2px
 }
 .law-connector{
-  color:#9b8cae;
+  color:#688e74;
   letter-spacing:2px
 }
 .answer-preview{
-  background:#f9f7fb;
-  box-shadow:0 3px 7px #40265005;
-  border:1px solid #d2c9db;
+  background:#f5faf4;
+  box-shadow:0 3px 7px #173f2d08;
+  border:1px solid #b1d1bc;
   border-radius:6px;
   padding:17px;
   width:205px;
@@ -637,7 +641,7 @@ em{
 }
 .answer-line{
   height:4px;
-  background:#d2cadd;
+  background:#b9d6c4;
   width:92%;
   border-radius:2px;
   margin:7px 0
@@ -647,8 +651,8 @@ em{
 }
 .source-chip{
   display:inline-block;
-  color:#766187;
-  background:#ece6f3;
+  color:#426a4e;
+  background:#dcebdd;
   font-size:8px;
   padding:4px 7px;
   border-radius:3px;
@@ -702,10 +706,10 @@ em{
 .tags span{
   font-size:9px;
   padding:3px 9px;
-  border:1px solid #e1e3d8;
+  border:1px solid #d4e2d2;
   border-radius:4px;
-  color:#64705e;
-  background:#f9faf3;
+  color:var(--muted);
+  background:#f0f6eb;
   line-height:1.6
 }
 .project-body details{
@@ -727,7 +731,7 @@ em{
   display:none
 }
 .project-body summary:hover{
-  color:#b1512d
+  color:var(--green)
 }
 .details-plus{
   font-size:19px;
@@ -748,7 +752,7 @@ em{
 }
 .detail-highlight{
   padding-left:12px;
-  border-left:2px solid #aebd8e
+  border-left:2px solid #8ab578
 }
 .compact-art{
   height:104px;
@@ -761,13 +765,13 @@ em{
   font-size:10px
 }
 .grid-art{
-  background:#f2e8dc;
-  color:#997150
+  background:#d2e4d2;
+  color:#4a6b50
 }
 .grid-art svg{
   width:143px;
   height:53px;
-  stroke:#bd805a;
+  stroke:#648c63;
   stroke-width:2;
   stroke-linecap:round;
   fill:none
@@ -776,13 +780,13 @@ em{
   font-size:10px
 }
 .wiki-art{
-  background:#e7ece2;
-  color:#71826c;
+  background:#e4edcd;
+  color:#557044;
   gap:16px
 }
 .wiki-file{
-  background:#f6f8f0;
-  border:1px solid #ced8c7;
+  background:#f6faee;
+  border:1px solid #c6d5b2;
   border-radius:4px;
   padding:9px 11px
 }
@@ -792,10 +796,10 @@ em{
 .wiki-md b{
   margin-left:13px;
   font-weight:400;
-  color:#8c9c70
+  color:#69834e
 }
 .wiki-check{
-  color:#74925d;
+  color:#4f7b41;
   font-size:20px
 }
 .side-projects{
@@ -811,7 +815,7 @@ em{
   font-size:36px;
   line-height:1;
   margin-bottom:13px;
-  color:var(--orange);
+  color:var(--accent);
   transform:rotate(14deg);
   transform-origin:left
 }
@@ -845,8 +849,8 @@ em{
 }
 .status-label{
   font-size:7px;
-  color:#687442;
-  background:#edf0d9;
+  color:#46643b;
+  background:#e2edcf;
   border-radius:3px;
   padding:3px 5px;
   letter-spacing:.4px;
@@ -860,13 +864,13 @@ em{
 }
 .side-project>p.side-detail{
   font-size:9px;
-  color:#64715a;
+  color:var(--muted);
   margin-top:13px
 }
 /* Experience and about */
 .journey-section{
-  background:#ecefe5;
-  border-block:1px solid #e2e5d9;
+  background:#ddebdd;
+  border-block:1px solid #ccdfcc;
   padding-block:79px
 }
 .journey-layout{
@@ -890,7 +894,7 @@ em{
 }
 .timeline{
   padding-left:23px;
-  border-left:1px solid #c2ccb7
+  border-left:1px solid #a9c4a9
 }
 .timeline-item{
   position:relative;
@@ -906,17 +910,17 @@ em{
   width:9px;
   height:9px;
   border-radius:50%;
-  background:#7d966c;
-  box-shadow:0 0 0 5px #ecefe5
+  background:#598c5c;
+  box-shadow:0 0 0 5px #ddebdd
 }
 .timeline-item:last-child .timeline-dot{
-  background:#ecefe5;
-  border:1px solid #8b9e7e
+  background:#ddebdd;
+  border:1px solid #789e78
 }
 .timeline-date{
   font-size:9px;
   letter-spacing:1.4px;
-  color:#5e6c50;
+  color:var(--muted);
   font-weight:500;
   margin-bottom:9px
 }
@@ -933,7 +937,7 @@ em{
 .current-badge{
   font-size:7px;
   letter-spacing:1px;
-  background:#dbe4cd;
+  background:#c7e0bc;
   padding:3px 8px;
   border-radius:3px;
   line-height:1.5
@@ -954,14 +958,14 @@ em{
   margin-bottom:0
 }
 .timeline-item .tags span{
-  border-color:#d3dbca;
+  border-color:#b9d0b6;
   background:transparent
 }
 .about-doodle{
   font-family:var(--serif);
   font-size:21px;
   font-style:italic;
-  color:#8b9479;
+  color:#718e72;
   transform:rotate(-7deg);
   padding-bottom:10px
 }
@@ -998,7 +1002,7 @@ em{
   width:33px;
   height:33px;
   border-radius:50%;
-  border:1px solid #cbd3c0;
+  border:1px solid #b7cfb6;
   flex-shrink:0
 }
 .education-block h3{
@@ -1013,12 +1017,12 @@ em{
 .education-block p.education-meta{
   font-size:11px;
   margin-top:4px;
-  color:#626f53
+  color:var(--muted)
 }
 .education-block p.education-note{
   font-size:10px;
   margin-top:8px;
-  color:#626e5a;
+  color:var(--muted);
   line-height:1.7
 }
 .certification{
@@ -1029,15 +1033,15 @@ em{
 }
 .certification>span:first-child{
   font-size:22px;
-  color:#7d8a68
+  color:#678d65
 }
 .about-story p.certification{
   font-size:11px
 }
 .toolbox{
   padding:25px 29px 20px;
-  background:#f0f0e7;
-  border:1px solid #dedfd1;
+  background:#e5efdf;
+  border:1px solid #cbddc4;
   border-radius:6px;
   transform:rotate(1deg)
 }
@@ -1056,35 +1060,36 @@ em{
 }
 .toolbox-heading>span{
   font-size:25px;
-  color:#899672
+  color:#729766
 }
 .tool-group{
   padding:17px 0;
-  border-bottom:1px solid #dde0cf
+  border-bottom:1px solid #c9dcc0
 }
 .tool-group h4{
   font-size:8px;
   letter-spacing:1.2px;
-  color:#616d52;
+  color:var(--muted);
   font-weight:600;
   margin-bottom:9px
 }
 .tool-group p{
   font-size:12px;
   line-height:1.9;
-  color:#4c5e48
+  color:var(--body)
 }
 .toolbox-footnote{
   font-family:var(--serif);
   font-style:italic;
   font-size:12px;
-  color:#616d52;
+  color:var(--muted);
   margin-top:16px
 }
 /* Contact and footer */
 .contact-section{
-  background:#e8edda;
-  border:1px solid #dce3ca;
+  background:#173f2d;
+  color:#f2f8e9;
+  border:1px solid #28553c;
   border-radius:8px;
   padding:47px 49px 33px;
   position:relative
@@ -1097,7 +1102,7 @@ em{
 }
 .contact-top .eyebrow{
   font-size:9px;
-  color:#5d6b48;
+  color:#bad39e;
   letter-spacing:1.6px
 }
 .contact-top h2{
@@ -1106,22 +1111,28 @@ em{
   letter-spacing:-1.7px;
   line-height:1.16
 }
+.contact-top h2 em{
+  color:var(--lime)
+}
+.contact-section :focus-visible{
+  outline-color:var(--lime)
+}
 .contact-top p:not(.eyebrow){
   font-size:13px;
   max-width:450px;
-  color:#607051;
+  color:#cddccc;
   margin-top:20px
 }
 .contact-flower{
   font-size:160px;
   font-weight:400;
-  color:#9fae7b;
+  color:var(--accent);
   line-height:1;
   transform:rotate(17deg);
   margin-right:22px
 }
 .contact-bottom{
-  border-top:1px solid #ccd7b9;
+  border-top:1px solid #4a6d50;
   padding-top:25px;
   margin-top:31px;
   display:flex;
@@ -1144,12 +1155,12 @@ em{
   margin-left:9px
 }
 .email-link:hover{
-  color:#a3562e
+  color:var(--lime)
 }
 .copy-button{
   display:none;
   background:transparent;
-  border:1px solid #bfceaa;
+  border:1px solid #8da982;
   border-radius:4px;
   padding:7px
 }
@@ -1164,14 +1175,14 @@ em{
   stroke-width:1.4
 }
 .copy-button:hover{
-  background:#dfe7cc
+  background:#315c40
 }
 .copy-status{
   position:absolute;
   top:calc(100% + 4px);
   left:0;
   font-size:10px;
-  color:#476132;
+  color:var(--lime);
   line-height:1.3
 }
 .social-links{
@@ -1185,7 +1196,7 @@ em{
   align-items:center
 }
 .social-links a:hover{
-  color:#a3562e
+  color:var(--lime)
 }
 .site-footer{
   display:flex;
@@ -1205,12 +1216,12 @@ em{
   font-family:var(--serif);
   font-style:italic;
   font-size:12px;
-  color:#667258
+  color:var(--muted)
 }
 .site-footer>span{
   margin-left:auto;
   font-size:9px;
-  color:#66715d
+  color:var(--muted)
 }
 .back-top{
   width:30px;
@@ -1220,11 +1231,11 @@ em{
   display:flex;
   align-items:center;
   justify-content:center;
-  color:#78856b;
+  color:#5e7e5e;
   font-size:15px
 }
 .back-top:hover{
-  background:#e7ecd9
+  background:#e1edd8
 }
 /* Chinese type has different line lengths and needs more leading. */
 html[lang=zh-CN] h1,html[lang=zh-CN] h2{
@@ -1705,7 +1716,7 @@ html[lang=zh-CN] .journey-intro h2{
   }
   .side-project{
     padding:0 0 0 16px;
-    border-left:2px solid #dce2cd
+    border-left:2px solid #c6dcbc
   }
   .side-project-heading{
     align-items:center
@@ -2056,7 +2067,11 @@ html[lang=zh-CN] .journey-intro h2{
   }
   .contact-section{
     padding:25px;
-    background:white
+    background:white;
+    color:var(--ink)
+  }
+  .contact-top h2 em,.contact-top .eyebrow,.contact-top p:not(.eyebrow),.contact-flower{
+    color:var(--ink)
   }
   .contact-top h2{
     font-size:32px
@@ -2141,7 +2156,7 @@ html[lang=zh-CN] .journey-intro h2{
   opacity: .32;
 }
 .journey-stage {
-  background: #ecefe5;
+  background: #ddebdd;
 }
 .journey-stage .journey-section {
   background: transparent;
@@ -2206,5 +2221,5 @@ html[lang=zh-CN] .journey-intro h2{
 }
 @media print {
   .ambient-art { display: none; }
-  .journey-stage { background: white; }
+  .hero-stage, .journey-stage { background: white; }
 }

@@ -1,77 +1,77 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" fill="none">
   <defs>
-    <marker id="agent-arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="m2 2 6 3-6 3" stroke="#879477" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></marker>
-    <marker id="agent-active" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="m2 2 6 3-6 3" stroke="#d66b3f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <marker id="agent-arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="m2 2 6 3-6 3" stroke="#779d7f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <marker id="agent-active" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="m2 2 6 3-6 3" stroke="#4f8c48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></marker>
   </defs>
   <!-- A reasoning cycle is connected to observations, tools, and returned state. -->
-  <g stroke="#879477" stroke-width="2.2" stroke-linecap="round" opacity=".66" marker-end="url(#agent-arrow)">
+  <g stroke="#779d7f" stroke-width="2.2" stroke-linecap="round" opacity=".66" marker-end="url(#agent-arrow)">
     <path d="M561 237v68"/>
     <path d="M695 431h52q22 0 22-22v-22"/>
     <path d="M779 520v98q0 27-27 27h-93"/>
     <path d="M526 714c-133 28-183-40-182-160"/>
     <path d="M343 432c-4-128 41-241 143-245"/>
   </g>
-  <g stroke="#879477" stroke-width="1.7" stroke-linecap="round" opacity=".43">
+  <g stroke="#779d7f" stroke-width="1.7" stroke-linecap="round" opacity=".43">
     <path d="M419 279c-46 57-54 158-9 232m-27 101c22 62 79 94 137 85" stroke-dasharray="5 10"/>
     <path d="M717 298c37 32 53 66 57 90m-92 191c-17 24-37 44-66 57" stroke-dasharray="4 9"/>
   </g>
   <!-- The middle loop includes a small branching hypothesis graph. -->
-  <g stroke="#264f3b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity=".8">
+  <g stroke="#286c48" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity=".8">
     <path d="M475 346c43-40 104-45 151-17 44 26 66 80 56 128" marker-end="url(#agent-arrow)"/>
     <path d="M669 491c-30 53-92 73-147 52-46-17-75-65-72-113" marker-end="url(#agent-arrow)"/>
-    <path d="M494 478c-17-28-15-67 5-93m42-31c34-10 68 1 89 24m12 83c-9 22-28 41-50 49" stroke="#879477" stroke-width="1.8"/>
-    <path d="m520 444 33-46 48 30-21 55-60-39m60 39 21-55 26 29m-74-59 22-30" stroke="#879477" stroke-width="1.8"/>
+    <path d="M494 478c-17-28-15-67 5-93m42-31c34-10 68 1 89 24m12 83c-9 22-28 41-50 49" stroke="#779d7f" stroke-width="1.8"/>
+    <path d="m520 444 33-46 48 30-21 55-60-39m60 39 21-55 26 29m-74-59 22-30" stroke="#779d7f" stroke-width="1.8"/>
     <circle cx="520" cy="444" r="10"/><circle cx="553" cy="398" r="11"/><circle cx="601" cy="428" r="12"/>
     <circle cx="580" cy="483" r="9"/><circle cx="627" cy="457" r="6"/><circle cx="575" cy="368" r="6"/>
-    <path d="M551 413c9 2 26 9 36 12" stroke="#d66b3f" stroke-width="2.7" marker-end="url(#agent-active)"/>
+    <path d="M551 413c9 2 26 9 36 12" stroke="#4f8c48" stroke-width="2.7" marker-end="url(#agent-active)"/>
   </g>
   <!-- Observation: an eye, sample bars, and an incoming signal. -->
-  <g stroke="#264f3b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".76">
+  <g stroke="#286c48" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".76">
     <path d="M490 183c34-40 108-40 143 0-36 41-107 41-143 0Z"/>
-    <circle cx="561" cy="183" r="19"/><circle cx="561" cy="183" r="6" stroke="#d66b3f"/>
-    <path d="M516 230v-9m16 9v-17m16 17v-12m16 12v-18m16 18v-13m16 13v-20m16 20v-8" stroke="#879477" stroke-width="1.7"/>
-    <path d="M454 130h18l9-15 11 29 11-22h22" stroke="#879477" stroke-width="1.8"/>
+    <circle cx="561" cy="183" r="19"/><circle cx="561" cy="183" r="6" stroke="#4f8c48"/>
+    <path d="M516 230v-9m16 9v-17m16 17v-12m16 12v-18m16 18v-13m16 13v-20m16 20v-8" stroke="#779d7f" stroke-width="1.7"/>
+    <path d="M454 130h18l9-15 11 29 11-22h22" stroke="#779d7f" stroke-width="1.8"/>
   </g>
   <!-- Tool selection branches to search, execution, and a small mechanical action. -->
-  <g stroke="#879477" stroke-width="1.8" stroke-linecap="round" opacity=".66">
+  <g stroke="#779d7f" stroke-width="1.8" stroke-linecap="round" opacity=".66">
     <path d="M769 373v-33q0-17-17-17h-18m45 104h42m-42 60v28q0 16 16 16h18"/>
     <path d="m723 323 10-7m0 14-10-7M820 427l-9-6m0 12 9-6M802 537l10-6m-10-6 10 6"/>
   </g>
-  <g stroke="#264f3b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".78">
+  <g stroke="#286c48" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".78">
     <path d="m779 393 24 34-24 35-25-35Z"/>
     <circle cx="698" cy="314" r="19"/><path d="m712 329 17 18m-39-33h17m-9-8v16"/>
     <path d="M826 395h54v51h-54Zm0 12h54m-43 12 8 6-8 6m16 1h12"/>
     <path d="M832 514c-10 0-17 9-14 19l-16 16 9 9 16-16c10 3 20-5 19-15l-9 8-9-9Z"/>
-    <circle cx="779" cy="480" r="8"/><path d="m775 480 3 3 5-6" stroke="#d66b3f" stroke-width="1.7"/>
-    <path d="M816 365h8m-4-4v8m48 108v7" stroke="#879477" stroke-width="1.6"/>
+    <circle cx="779" cy="480" r="8"/><path d="m775 480 3 3 5-6" stroke="#4f8c48" stroke-width="1.7"/>
+    <path d="M816 365h8m-4-4v8m48 108v7" stroke="#779d7f" stroke-width="1.6"/>
   </g>
   <!-- Results keep both a changed state and a verified return value. -->
-  <g stroke="#264f3b" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" opacity=".77">
+  <g stroke="#286c48" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" opacity=".77">
     <path d="M527 630h124v130H527Z"/>
     <path d="M541 648h64m-64 15h94m-94 53h49m-49 16h36" stroke-width="1.6"/>
-    <path d="M542 698v-17h13v17Zm23 0v-24h13v24Zm23 0v-12h13v12Zm23 0v-30h13v30Z" stroke="#879477" stroke-width="1.6"/>
-    <circle cx="619" cy="733" r="17"/><path d="m611 733 6 6 10-12" stroke="#d66b3f"/>
+    <path d="M542 698v-17h13v17Zm23 0v-24h13v24Zm23 0v-12h13v12Zm23 0v-30h13v30Z" stroke="#779d7f" stroke-width="1.6"/>
+    <circle cx="619" cy="733" r="17"/><path d="m611 733 6 6 10-12" stroke="#4f8c48"/>
     <path d="M336 450h25v25h-25Zm0 39h25v25h-25Zm0 39h25v25h-25Z"/>
-    <path d="m342 463 5 5 8-10m-13 44 5 5 8-10" stroke="#879477" stroke-width="1.7"/>
-    <circle cx="348" cy="540" r="4" stroke="#d66b3f" stroke-width="1.8"/>
+    <path d="m342 463 5 5 8-10m-13 44 5 5 8-10" stroke="#779d7f" stroke-width="1.7"/>
+    <circle cx="348" cy="540" r="4" stroke="#4f8c48" stroke-width="1.8"/>
   </g>
-  <g stroke="#d66b3f" stroke-width="2.7" stroke-linecap="round" opacity=".82" marker-end="url(#agent-active)">
+  <g stroke="#4f8c48" stroke-width="2.7" stroke-linecap="round" opacity=".82" marker-end="url(#agent-active)">
     <path d="M652 714c65-9 91-34 91-79v-85"/>
     <path d="M519 710c-93 8-139-44-139-116v-32"/>
     <path d="M366 432c-1-113 44-217 113-223"/>
   </g>
   <!-- A compact trajectory records successive states, actions, and one branch. -->
-  <g stroke="#879477" stroke-width="1.8" stroke-linecap="round" opacity=".65">
+  <g stroke="#779d7f" stroke-width="1.8" stroke-linecap="round" opacity=".65">
     <path d="M369 858h57m18 0h59m18 0h59m18 0h59m18 0h58m18 0h57"/>
     <path d="M588 849v-25q0-13 13-13h34" stroke-dasharray="4 5"/>
     <path d="m415 853 8 5-8 5m77-10 8 5-8 5m77-10 8 5-8 5m77-10 8 5-8 5m76-10 8 5-8 5m76-10 8 5-8 5"/>
   </g>
-  <g stroke="#264f3b" stroke-width="2.2" opacity=".76">
+  <g stroke="#286c48" stroke-width="2.2" opacity=".76">
     <circle cx="360" cy="858" r="9"/><circle cx="435" cy="858" r="9"/><circle cx="512" cy="858" r="9"/>
     <circle cx="589" cy="858" r="9"/><circle cx="666" cy="858" r="9"/><circle cx="742" cy="858" r="9"/><circle cx="819" cy="858" r="9"/>
     <circle cx="644" cy="811" r="8" stroke-dasharray="3 4"/>
   </g>
-  <g fill="#264f3b" opacity=".7" font-family="Georgia, serif" font-size="27">
+  <g fill="#286c48" opacity=".7" font-family="Georgia, serif" font-size="27">
     <text x="468" y="218">①</text><text x="606" y="299">②</text><text x="806" y="484">③</text><text x="664" y="741">④</text>
     <text x="337" y="897" font-style="italic">s₀</text><text x="492" y="897" font-style="italic">s₁</text><text x="646" y="897" font-style="italic">s₂</text><text x="799" y="897" font-style="italic">s₃</text>
   </g>
