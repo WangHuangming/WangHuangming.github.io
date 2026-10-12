@@ -18,6 +18,8 @@ For background decoration, the user prefers diagrams related to AI principles (s
 
 `npm run dev` starts the dependency-free preview. `npm test` runs Playwright browser checks after installing development dependencies. Inspect both languages at desktop and mobile widths when changing layout or copy.
 
+GitHub Pages publishes the output of `npm run build` from `_site/`, with content-versioned public asset URLs to prevent new HTML from loading stale CSS/JavaScript. Keep the production packaging and stale-cache browser regression checks passing; do not switch the workflow back to uploading the repository root.
+
 Distribute background diagrams along both margins throughout the page, with a little more density and visibility than sparse, very pale single motifs. Preserve their current recognizable scale rather than enlarging them to fill gaps; keep the central reading area quiet.
 
 The current diagram density is accepted. Each placement should show a different AI concept rather than repeating the same SVG. Include meaningful secondary detail (data flow, intermediate steps, mathematical notation, local plots) so the backgrounds reward a closer look, while keeping their linework subdued. Use language-neutral symbols in decorative diagrams and do not mirror diagrams containing notation.

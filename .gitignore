@@ -35,6 +35,9 @@ coverage/
 # Dependency directories
 node_modules/
 
+# Generated GitHub Pages output
+_site/
+
 # Optional npm cache directory
 .npm
 
@@ -52,4 +55,4 @@ node_modules/
 
 # Temporary files
 *.tmp
-*.temp 
+*.temp

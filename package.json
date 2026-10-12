@@ -5,6 +5,7 @@
   "description": "Huangming Wang's bilingual portfolio",
   "scripts": {
     "dev": "node tools/serve.mjs",
+    "build": "node tools/build.mjs",
     "test": "node --test tests/*.test.cjs"
   },
   "devDependencies": {

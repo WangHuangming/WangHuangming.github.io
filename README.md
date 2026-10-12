@@ -2,7 +2,7 @@
 
 A static English/Chinese personal homepage for Huangming Wang, an LLM application engineer. It presents selected projects, experience, education, a résumé download, and contact links. English is the default; the language switch remembers a visitor's choice in local storage.
 
-The original GitHub Pages repository is [WangHuangming/WangHuangming.github.io](https://github.com/WangHuangming/WangHuangming.github.io), with the site address [wanghuangming.github.io](https://wanghuangming.github.io/). The site uses plain HTML, CSS, and JavaScript and requires no build step or backend.
+The original GitHub Pages repository is [WangHuangming/WangHuangming.github.io](https://github.com/WangHuangming/WangHuangming.github.io), with the site address [wanghuangming.github.io](https://wanghuangming.github.io/). The site uses plain HTML, CSS, and JavaScript with no backend or runtime dependencies.
 
 ## Local preview
 
@@ -13,6 +13,12 @@ npm run dev
 ```
 
 Open `http://127.0.0.1:4173`. No dependency installation is required for previewing the site: `tools/serve.mjs` uses only Node.js built-in modules.
+
+## Publishing
+
+Pushes to `main` run the GitHub Pages workflow. It runs `npm run build` without installing dependencies and publishes only the generated `_site/` directory. The build gives CSS, JavaScript, images, and the résumé content-based filenames and updates the published HTML references. Changed files receive new URLs, preventing a new page from reusing an older cached stylesheet or script. Original public filenames are also retained for visitors with cached HTML from before this change.
+
+Local preview continues to use the editable source files directly. Do not edit or commit `_site/`; it is regenerated on every build.
 
 ## Tests
 
@@ -34,6 +40,7 @@ To use an existing Chromium executable instead of downloading Playwright's brows
 - `images/`: portrait and visual assets.
 - `assets/Huangming_Wang_Resume.pdf`: downloadable English résumé.
 - `tools/serve.mjs`: local preview server.
+- `tools/build.mjs`: dependency-free production packaging and asset versioning.
 - `tests/`: automated checks.
 
 The `images/ambient-*.svg` files are decorative AI concept sketches, each used in one background placement. They cover embeddings, neural networks, attention, optimization, retrieval, agent loops, decision trees, learning curves, knowledge graphs, tokenization, and positional encoding (the latter appears in the stacked mobile hero). Curves and weights illustrate concepts; they are not measured project results. Keep their notation language-neutral, their placements distinct, and their contrast below the main content.
